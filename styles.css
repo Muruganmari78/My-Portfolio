@@ -1,0 +1,362 @@
+.top,a{
+  width:100%;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(4, 61, 104, 0.881);
+  padding: 4px;
+ border-radius: 6px;
+ text-align: right;
+ word-spacing: 9px;
+ text-decoration: none;
+ color: white;
+
+}
+a:hover{
+  width: 10px;
+  padding: 3px;
+  text-decoration: none;
+  background-color:#022a55;
+  color:gold; 
+  cursor:pointer;
+
+}
+a:before{
+  background-color:rgb(203, 125, 8) ;
+  color:rgb(252, 252, 66);
+}
+
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family:'Times New Roman', Times, serif;
+  background-image: url(botanical-leaves.jpg);
+  color: #82f834;
+  line-height: 1.6;
+}
+
+/* Home Section */
+.home-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 40px 20px;
+  text-align: center;
+ 
+}
+
+/* Container */
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Headings */
+h1 {
+  font-size: 2.8rem;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #f3ff45;
+}
+
+.highlight {
+  color: #007BFF;
+  font-weight: bold;
+}
+
+/* Paragraph */
+p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+/* Buttons */
+.btn, .btn-secondary {
+  padding: 12px 24px;
+  font-size: 1rem;
+  margin: 10px 10px 0 0;
+  border-radius: 8px;
+  text-decoration: none;
+  cursor:pointer;
+ 
+}
+
+.btn {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+   transition: transform 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.btn-secondary {
+  background-color: #007BFF;
+  color: #ffffff;
+  border:none;
+}
+
+.skill-card i {
+  font-size: 1.5rem;
+  margin-right: 8px;
+  vertical-align: middle;
+  cursor:pointer;
+}
+.skills-section {
+  padding: 60px 20px;
+  background: #000; /* Dark base or match with your theme */
+  text-align: center;
+}
+
+.skills-section h2 {
+  font-size: 2.5rem;
+  color: rgb(132, 255, 0);
+  margin-bottom: 10px;
+}
+
+.skills-section p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: #0f0; /* Neon green */
+}
+
+/* Grid for skill items */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  cursor:pointer;
+}
+
+/* Individual skill card */
+.skill-card {
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid #00ffcc;
+  color: #00ffcc;
+  padding: 15px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  box-shadow: 0 4px 12px rgba(0, 255, 200, 0.2);
+  transition: transform 0.3s ease;
+  cursor:pointer;
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+  background-color: #00ffcc;
+  color: #000;
+  cursor:pointer;
+}
+
+/* Font Awesome icons */
+.skill-card i {
+  font-size: 1.5rem;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+.skills-section {
+  background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("your-bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.projects-section {
+  padding: 60px 20px;
+  background: #000;
+  color: #fff;
+  text-align: center;
+  width:inherit;
+}
+
+.projects-section h2 {
+  font-size: 2.5rem;
+  color: yellow;
+  margin-bottom: 10px;
+}
+
+.projects-section p {
+  font-size: 1.1rem;
+  color: #ccc;
+  margin-bottom: 40px;
+}
+
+/* Grid Layout */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  cursor:pointer;
+}
+
+/* Project Card */
+.project-card {
+  background-color: #06085e;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #007BFF;
+  box-shadow: 0 4px 8px rgba(0, 123, 255, 0.1);
+  transition: transform 0.3s ease;
+  text-align: left;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  background-color: #2190eb;
+}
+
+.project-card h3 {
+  color: #00ffff;
+  margin-bottom: 10px;
+}
+
+.project-card a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #00ffcc;
+  text-decoration: none;
+}
+
+.project-card a:hover {
+  text-decoration: underline;
+}
+.para{
+color: #81ff32;
+font-family: 'Times New Roman', Times, serif;
+text-align: center;
+}
+.education-section {
+  background-color: #000;
+  color: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.education-section h2 {
+  font-size: 2.5rem;
+  color: yellow;
+  margin-bottom: 30px;
+}
+
+.education-timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.edu-card {
+  background-color: #111;
+  border: 1px solid #00ffcc;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: left;
+  box-shadow: 0 4px 8px rgba(0, 255, 204, 0.1);
+  transition: 0.3s ease;
+}
+
+.edu-card:hover {
+  transform: translateY(-5px);
+  background-color: #0d0d0d;
+}
+
+.edu-card h3 {
+  color: #00ffcc;
+  margin-bottom: 10px;
+}
+
+.edu-card p {
+  font-size: 1.1rem;
+  margin: 5px 0;
+  color: #ccc;
+}
+
+
+.contact-section {
+  padding: 60px 20px;
+  background: #001f1f;
+  color: #fff;
+  text-align: center;
+  width:100%;
+}
+
+.contact-section h2 {
+  font-size: 2.5rem;
+  color: yellow;
+  margin-bottom: 10px;
+}
+
+.contact-section p {
+  font-size: 1.1rem;
+  color: #ccc;
+  margin-bottom: 20px;
+}
+
+.contact-info p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.contact-info i {
+  color: #00ffcc;
+  margin-right: 8px;
+}
+
+.contact-info a {
+  color: #00ffcc;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+/* Contact Form */
+.contact-form {
+  margin-top: 30px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  background: #0a0a0a;
+  color: white;
+  border: 1px solid #00ffcc;
+}
+
+.contact-form button {
+  padding: 12px;
+  background: #00ffcc;
+  color: #000;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-form button:hover {
+  background: #00cccc;
+}
